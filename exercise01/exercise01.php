@@ -1,6 +1,5 @@
 <?php
-        //Enter your code here, enjoy!
-        
+
 $tests = [
     'tes',
     '12test',
@@ -22,7 +21,7 @@ $tests = [
 
 function validate($str)
 {
-    //^[a-zA-Z]([a-zA-Z0-9_]){2,}[^_]$    
+  
     if(strlen($str) < 4)
         return false;
         

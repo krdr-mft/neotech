@@ -1,5 +1,5 @@
 <?php
-//Enter your code here, enjoy!
+
 $tests = [
     '2022/03/12',
     '2022-03-12',
