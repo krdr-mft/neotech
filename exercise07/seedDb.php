@@ -29,7 +29,6 @@ $faker = Faker\Factory::create();
 try
 {
     $i = 0;
-    $t = microtime();
     while($i < 100000)
     {
         $i++;
@@ -39,8 +38,7 @@ try
         $sqlPrepare->execute();        
     }
 
-    $te = microtime() - $t;
-    echo "Executed in: {$te} microsec";
+    echo "Finished!";
 }
 catch (PDOException $e)
 {
